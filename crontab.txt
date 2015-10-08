@@ -1,0 +1,1 @@
+1-59/5 * * * * /var/lib/jenkins/test/backup.sh > /var/lib/jenkins/test/log 2>&1 
