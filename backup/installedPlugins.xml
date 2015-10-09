@@ -2,28 +2,20 @@
 <org.jvnet.hudson.plugins.thinbackup.backup.PluginList plugin="thinBackup@1.7.4">
   <plugins>
     <entry>
+      <string>scm-sync-configuration</string>
+      <string>0.0.8</string>
+    </entry>
+    <entry>
       <string>ssh-credentials</string>
       <string>1.11</string>
-    </entry>
-    <entry>
-      <string>pam-auth</string>
-      <string>1.2</string>
-    </entry>
-    <entry>
-      <string>Hudson core</string>
-      <string>1.609.3</string>
-    </entry>
-    <entry>
-      <string>translation</string>
-      <string>1.12</string>
     </entry>
     <entry>
       <string>mapdb-api</string>
       <string>1.0.6.0</string>
     </entry>
     <entry>
-      <string>matrix-auth</string>
-      <string>1.2</string>
+      <string>translation</string>
+      <string>1.12</string>
     </entry>
     <entry>
       <string>scm-api</string>
@@ -32,10 +24,6 @@
     <entry>
       <string>javadoc</string>
       <string>1.3</string>
-    </entry>
-    <entry>
-      <string>junit</string>
-      <string>1.9</string>
     </entry>
     <entry>
       <string>antisamy-markup-formatter</string>
@@ -58,16 +46,8 @@
       <string>2.5.3</string>
     </entry>
     <entry>
-      <string>ldap</string>
-      <string>1.11</string>
-    </entry>
-    <entry>
       <string>script-security</string>
       <string>1.15</string>
-    </entry>
-    <entry>
-      <string>matrix-project</string>
-      <string>1.6</string>
     </entry>
     <entry>
       <string>external-monitor-job</string>
@@ -82,12 +62,40 @@
       <string>2.12</string>
     </entry>
     <entry>
+      <string>ssh-slaves</string>
+      <string>1.10</string>
+    </entry>
+    <entry>
       <string>ant</string>
       <string>1.2</string>
     </entry>
     <entry>
-      <string>ssh-slaves</string>
-      <string>1.10</string>
+      <string>slack</string>
+      <string>1.8</string>
+    </entry>
+    <entry>
+      <string>pam-auth</string>
+      <string>1.2</string>
+    </entry>
+    <entry>
+      <string>Hudson core</string>
+      <string>1.609.3</string>
+    </entry>
+    <entry>
+      <string>matrix-auth</string>
+      <string>1.2</string>
+    </entry>
+    <entry>
+      <string>junit</string>
+      <string>1.9</string>
+    </entry>
+    <entry>
+      <string>ldap</string>
+      <string>1.11</string>
+    </entry>
+    <entry>
+      <string>matrix-project</string>
+      <string>1.6</string>
     </entry>
     <entry>
       <string>thinBackup</string>
