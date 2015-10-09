@@ -9,25 +9,7 @@
     <artifactNumToKeep>-1</artifactNumToKeep>
   </logRotator>
   <keepDependencies>false</keepDependencies>
-  <properties>
-    <jenkins.plugins.slack.SlackNotifier_-SlackJobProperty plugin="slack@1.8">
-      <teamDomain></teamDomain>
-      <token></token>
-      <room></room>
-      <startNotification>true</startNotification>
-      <notifySuccess>true</notifySuccess>
-      <notifyAborted>true</notifyAborted>
-      <notifyNotBuilt>true</notifyNotBuilt>
-      <notifyUnstable>true</notifyUnstable>
-      <notifyFailure>true</notifyFailure>
-      <notifyBackToNormal>true</notifyBackToNormal>
-      <notifyRepeatedFailure>false</notifyRepeatedFailure>
-      <includeTestSummary>false</includeTestSummary>
-      <showCommitList>false</showCommitList>
-      <includeCustomMessage>false</includeCustomMessage>
-      <customMessage></customMessage>
-    </jenkins.plugins.slack.SlackNotifier_-SlackJobProperty>
-  </properties>
+  <properties/>
   <scm class="hudson.scm.NullSCM"/>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
@@ -44,6 +26,10 @@
       <command>/var/lib/jenkins/test/backup.sh &gt; /var/lib/jenkins/test/log 2&gt;&amp;1</command>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.plugins.chucknorris.CordellWalkerRecorder plugin="chucknorris@0.5">
+      <factGenerator/>
+    </hudson.plugins.chucknorris.CordellWalkerRecorder>
+  </publishers>
   <buildWrappers/>
 </project>
