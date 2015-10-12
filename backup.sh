@@ -5,4 +5,6 @@ rm -r backup
 mv FULL* backup
 git add .
 git commit -m "Jenkins Backup"
+sudo su
 git push origin master
+exit
