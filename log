@@ -1,1 +1,2 @@
+rm: cannot remove `backup': No such file or directory
 mv: cannot stat `FULL*': No such file or directory
