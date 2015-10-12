@@ -17,7 +17,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>/var/lib/jenkins/Jenkins-Backup/backup.sh &gt; /var/lib/jenkins/Jenkins-Backup/log 2&gt;&amp;1</command>
+      <command>/var/lib/jenkins/test/backup.sh &gt; /var/lib/jenkins/test/log 2&gt;&amp;1</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
