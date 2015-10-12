@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <org.jvnet.hudson.plugins.thinbackup.ThinBackupPluginImpl plugin="thinBackup@1.7.4">
-  <fullBackupSchedule>H/5 * * * *</fullBackupSchedule>
+  <fullBackupSchedule>H/30 * * * *</fullBackupSchedule>
   <diffBackupSchedule></diffBackupSchedule>
   <backupPath>/var/lib/jenkins/test</backupPath>
   <nrMaxStoredFull>1</nrMaxStoredFull>

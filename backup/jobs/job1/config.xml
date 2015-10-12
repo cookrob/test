@@ -9,17 +9,9 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers>
-    <hudson.triggers.TimerTrigger>
-      <spec>1-59/30 * * * *</spec>
-    </hudson.triggers.TimerTrigger>
-  </triggers>
+  <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders>
-    <hudson.tasks.Shell>
-      <command>/var/lib/jenkins/test/backup.sh &gt; /var/lib/jenkins/test/log 2&gt;&amp;1</command>
-    </hudson.tasks.Shell>
-  </builders>
+  <builders/>
   <publishers/>
   <buildWrappers/>
 </project>
