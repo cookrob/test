@@ -10,6 +10,10 @@
       <string>1.2</string>
     </entry>
     <entry>
+      <string>port-allocator</string>
+      <string>1.8</string>
+    </entry>
+    <entry>
       <string>Hudson core</string>
       <string>1.609.3</string>
     </entry>
@@ -72,6 +76,10 @@
     <entry>
       <string>external-monitor-job</string>
       <string>1.4</string>
+    </entry>
+    <entry>
+      <string>android-emulator</string>
+      <string>2.13.1</string>
     </entry>
     <entry>
       <string>credentials</string>
